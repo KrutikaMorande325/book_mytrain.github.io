@@ -1,0 +1,39 @@
+body{
+    background-image: url(("blur.png"));
+    
+}
+.signup-form{
+    
+    height:600px;
+    width:600px;
+    margin-top:5%;
+    margin-left:25%;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.signup-head{
+    padding:8px;
+}
+.signup-content .radio{
+    margin:10px 10px;
+}
+.signup-content2.input{
+    width:400px;
+    padding:10px;
+    margin-left:150px;
+    color:white;
+
+}
+
+
+.signup-content2 .travel2{
+    padding:5px;
+}
+.signup-content2 .submit-btn{
+    background-color: orange;
+    border: 2px solid black;
+    width:200px;
+    padding:10px;
+    border-radius: 10px;
+    margin-left:100px;
+}

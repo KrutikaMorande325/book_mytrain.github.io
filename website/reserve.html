@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="booking8.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+</head>
+<body><center>
+    <form>
+        <div class="signup-form bg-dark">
+            <div class="Signup-head bg-warning">
+                <h1><center> Reserve Your Ticket </center></h1>
+            </div>
+            <div class="signup-content">
+                <input type="radio" class="radio" name="r">
+                <label class="text-white">One Way</label>
+                <input type="radio" class="radio" name="r">
+                <label class="text-white">Return</label>
+            </div><br>
+            <div class="signup-content2">
+                <label for="from" class="text-white" style="margin-left:10px;">From:</label>
+                <input type="text" id="from" placeholder="Enter City, Station name or Station code" ><br><br>
+                <label for="to" class="text-white" style="margin-left:10px;"> To:</label>
+               <input type="text" placeholder="Enter City, Station name or Station code"><br><br>
+
+            <label class="text-white" style="margin-left:10px;">Depart:</label>
+            <input type="date" ><br><br>
+            <label class="text-white"style="margin-left:10px;" >Return:</label>
+            <input type="date"><br><br>
+             
+            <label for="adult" class="text-white" style="margin-left:10px;">Adults:</label>
+            <input type="number" placeholder="Adults"><br> <br>
+            <label for="child" class="text-white" style="margin-left:10px;">Children:</label>
+            <input type="number" placeholder="Children"><br><br>
+
+            <label class="text-white travel">Travel Class</label>
+            <select class=" travel2">
+                <option></option>
+                <option>First Class/1A</option>
+                <option>AC 2tier/2A</option>
+                <option>AC 3tier/3A</option>
+                <option>Executive class chair car/Economy Class</option>
+                <option>AC Chair Car</option>
+                <option>Sleeper Class</option>
+                <option>Second Class</option>
+                <option>General</option>
+            </select><br>
+            <button value="Check Availaibility" class="submit-btn bg-warning"> <b> Check Availaibility</b></button>
+        </div>
+    </div>
+    </form></center>
+</body>
+</html>
